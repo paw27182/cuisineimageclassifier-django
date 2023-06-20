@@ -17,11 +17,11 @@ class CuisineImageClassifierClass(TemplateView):
 
 
 @csrf_exempt
-def execute(request):
+def appmain(request):
     command = request.POST.get('command')
     file_name = request.POST.get('file_name')
 
-    msg = f'{dt.now().strftime(ftime)} [{mid}] -- execute/ -- command: {command} -- file_name: {file_name} --'
+    msg = f'{dt.now().strftime(ftime)} [{mid}] -- appmain/ -- command: {command} -- file_name: {file_name} --'
     print(msg)
 
     if command in ["submit_an_image"]:

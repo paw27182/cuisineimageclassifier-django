@@ -1,5 +1,5 @@
 /*---------------------------
- execute
+ appmain
  submit.html - #btn_execute
 ---------------------------*/
 $(function(){
@@ -8,10 +8,10 @@ $(function(){
 	    $("#area4Result").empty();  // clear result area
 
         var command = $("#selected_dropdown_item").val();  // Submit_an_image
-        console.log("[execute.js] command= ", command);
+        console.log("[appmain.js] command= ", command);
 
         var file_name = $('#dataFile').prop('files')[0].name;
-        console.log("[execute.js] file_name= ", file_name);
+        console.log("[appmain.js] file_name= ", file_name);
 
         // formData for POST
         var formData = new FormData($('#uploadForm')[0]);  //FormData object
@@ -23,7 +23,7 @@ $(function(){
         $('#btn_execute').text("Executing...");
 
 		$.ajax({
-			url: 'execute/',
+			url: 'appmain/',
 			type: 'POST',
 			data: formData,
             processData: false,

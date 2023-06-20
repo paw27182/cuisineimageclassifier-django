@@ -1,8 +1,8 @@
 from django.urls import path
 from .views import CuisineImageClassifierClass
-from .views import execute
+from .views import appmain
 
 urlpatterns = [
     path('cuisineimageclassifierapp/', CuisineImageClassifierClass.as_view()),  # classed-based view
-    path('cuisineimageclassifierapp/execute/', execute)
+    path('cuisineimageclassifierapp/appmain/', appmain)
 ]
