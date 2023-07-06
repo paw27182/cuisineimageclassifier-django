@@ -1,8 +1,10 @@
-from pathlib import Path
 from datetime import datetime as dt
-from django.views.generic import TemplateView
-from django.shortcuts import render
+from pathlib import Path
+
+# from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.views.decorators.csrf import csrf_exempt
+from django.views.generic import TemplateView
 
 import cuisineimageclassifierapp.command as cmd
 
@@ -10,6 +12,11 @@ mid = Path(__file__).name  # module id
 ftime = "%Y/%m/%d %H:%M:%S"
 
 # Create your views here.
+
+
+@csrf_exempt
+def index_view(request):
+    return redirect("/cuisineimageclassifierapp")  # slash
 
 
 class CuisineImageClassifierClass(TemplateView):

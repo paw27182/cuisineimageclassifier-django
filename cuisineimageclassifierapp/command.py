@@ -1,14 +1,14 @@
-from pathlib import Path
-import random
-import numpy as np
-from PIL import Image
 import io
-
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.models import load_model
+import random
+from pathlib import Path
 
 import matplotlib
 import matplotlib.pyplot as plt
+import numpy as np
+from PIL import Image
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+
 matplotlib.use('Agg')
 
 

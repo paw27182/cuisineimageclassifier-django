@@ -18,8 +18,8 @@
 <br>
 
 * Open browser
-  * http://localhost:8000/cuisineimageclassifierapp
-  * Submit an image
+  * http://localhost:8000/
+  * Submit an image: ./cuisineimageclassifier-flask/tests/salad.jpg
 
 
 <br>

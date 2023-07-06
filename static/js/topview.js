@@ -2,9 +2,9 @@
  load html
  topview.html - .dropdown-item
 ------------------------------*/
-$(function(){
-	$('.dropdown-item').off().on("click", function(){
-	    $("#home").hide();
+$(function () {
+    $('.dropdown-item').off().on("click", function () {
+        $("#home").hide();
 
         // get dropdown-menu and dropdown-item
         dropdown_menu = $(this).parent().attr("id");  // "Entry" or "Help"
@@ -43,7 +43,7 @@ $(function(){
         } else {
             // nothing to do
         };
-	});  // function
+    });  // function
 });  // function
 
 
@@ -51,13 +51,13 @@ $(function(){
  show home tab again
  topview.html
 --------------------*/
-$(function(){
-	$('#home_tab').off().on("click", function(){
+$(function () {
+    $('#home_tab').off().on("click", function () {
 
-	    $('#home').show();
+        $('#home').show();
 
         $('#label_request_area').hide();
-	    $('#area4Request #area1').hide();
+        $('#area4Request #area1').hide();
         $('#area4Result').hide();
-	});
+    });
 });
