@@ -14,7 +14,7 @@ matplotlib.use('Agg')
 
 def predict_image(input_data):
     # load model
-    model_file = r"./cuisineimageclassifierapp/model/best_model_2.12.0.h5"
+    model_file = r"./cuisineimageclassifierapp/model/best_model_2.13.0.h5"
     model = load_model(model_file)
 
     # predict image
