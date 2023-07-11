@@ -6,7 +6,7 @@ from django.shortcuts import redirect, render
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import TemplateView
 
-import cuisineimageclassifierapp.command as cmd
+import cicapp.command as cmd
 
 mid = Path(__file__).name  # module id
 ftime = "%Y/%m/%d %H:%M:%S"
@@ -16,7 +16,7 @@ ftime = "%Y/%m/%d %H:%M:%S"
 
 @csrf_exempt
 def index_view(request):
-    return redirect("/cuisineimageclassifierapp")  # slash
+    return redirect("/cicapp")  # slash
 
 
 class CuisineImageClassifierClass(TemplateView):

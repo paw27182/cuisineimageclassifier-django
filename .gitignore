@@ -1,7 +1,3 @@
-.github
 .idea
-__pycache__
-execute/__pycache__
-topview/__pycache__
-cuisineimageclassifierapp/__pycache__
-cuisineimageclassifierproject/__pycache__
+__pycache__/
+

@@ -38,14 +38,14 @@
 
 | Directory/File |D/F| description |
 | :------------- | :-| :---------- |
-| cuisineimageclassifierapp | Dir | Django application directory |
-| cuisineimageclassifierapp/model | Dir | Machine learning model |
-| cuisineimageclassifierapp/command.py | File | Machine learning predict program |
-| cuisineimageclassifierapp/urls.py | File ||
-| cuisineimageclassifierapp/views.py | File ||
-| cuisineimageclassifierproject | Dir | Django project directory |
-| cuisineimageclassifierproject/settings.py | File ||
-| cuisineimageclassifierproject/urls.py | File ||
+| cicapp | Dir | Django application directory |
+| cicapp/model | Dir | Machine learning model |
+| cicapp/command.py | File | Machine learning predict program |
+| cicapp/urls.py | File ||
+| cicapp/views.py | File ||
+| cicproject | Dir | Django project directory |
+| cicproject/settings.py | File ||
+| cicproject/urls.py | File ||
 | static | Dir | css, html, javascript files |
 | templates | Dir | html files |
 | tests | Dir | test image files |

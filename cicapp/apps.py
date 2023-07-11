@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CuisineimageclassifierappConfig(AppConfig):
+class CicappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'cuisineimageclassifierapp'
+    name = 'cicapp'

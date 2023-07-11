@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cuisineimageclassifierapp.apps.CuisineimageclassifierappConfig',
+    'cicapp.apps.CicappConfig',
 ]
 
 MIDDLEWARE = [
@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cuisineimageclassifierproject.urls'
+ROOT_URLCONF = 'cicproject.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cuisineimageclassifierproject.wsgi.application'
+WSGI_APPLICATION = 'cicproject.wsgi.application'
 
 
 # Database
