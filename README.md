@@ -3,7 +3,7 @@
 # 1. What you can do
 
 * To predict which class an image belong to by using the pre-trained model.<br>
-  The classification class consist of "salad", "sushi" and "tofu".
+  The classification classes consist of "salad", "sushi" and "tofu".
 
 * (CAUTION) This repository is for beginners' learning.  The precision of the model is not so good.
 
@@ -19,7 +19,8 @@
 
 * Open browser
   * http://localhost:8000/
-  * Submit an image: ./cuisineimageclassifier-flask/tests/salad.jpg
+  * Submit an image:<BR>
+   ./cuisineimageclassifier-flask/tests/salad.jpg
 
 
 <br>
@@ -28,7 +29,7 @@
 * OS: Windows 10
 * Web Framework: Django
 * Python 3.10.11
-* Python Libraries: Django matplotlib numpy Pillow requests tensorflow
+* Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.0
 
@@ -41,11 +42,8 @@
 | cicapp | Dir | Django application directory |
 | cicapp/model | Dir | Machine learning model |
 | cicapp/command.py | File | Machine learning predict program |
-| cicapp/urls.py | File ||
-| cicapp/views.py | File ||
+| cicapp | Dir | application directory |
 | cicproject | Dir | Django project directory |
-| cicproject/settings.py | File ||
-| cicproject/urls.py | File ||
 | static | Dir | css, html, javascript files |
 | templates | Dir | html files |
 | tests | Dir | test image files |
