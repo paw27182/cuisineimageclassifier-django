@@ -12,7 +12,7 @@
 # 2. How to use
 
 * Program start
-  * cd cuisineimageclassifierproject
+  * cd cuisineimageclassifier-django
   * python.exe manage.py runserver 8000
 
 <br>
