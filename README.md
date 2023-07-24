@@ -11,6 +11,8 @@
 
 # 2. How to use
 
+* Install the prerequisite python libraries
+
 * Program start
   * cd cuisineimageclassifier-django
   * python.exe manage.py runserver 8000
