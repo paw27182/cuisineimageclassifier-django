@@ -9,6 +9,10 @@
 
 <br>
 
+<img src="cuisineimageclassifier.png">
+
+<br>
+
 # 2. How to use
 
 * Install the prerequisite python libraries
