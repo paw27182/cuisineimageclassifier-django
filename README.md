@@ -17,6 +17,14 @@
 
 * Install the prerequisite python libraries
 
+* Get a model file from the GitHub repository of 'cuisineimageclassifier-jupyter'
+
+  STEP1: > git clone git@github.com:paw27182/cuisineimageclassifier-jupyter.git
+
+  STEP2: Copy the model file of 'best_model_2.14.0.h5' to the following directory.
+
+         ~/cuisineimageclassifier-django/cicapp/model
+
 * Program start
   * cd cuisineimageclassifier-django
   * python.exe manage.py runserver 8000
@@ -26,7 +34,7 @@
 * Open browser
   * http://localhost:8000/
   * Submit an image:<BR>
-   ./cuisineimageclassifier-flask/tests/salad.jpg
+   ./cuisineimageclassifier-django/tests/salad.jpg
 
 
 <br>
@@ -34,7 +42,7 @@
 # 3. System
 * OS: Windows 10
 * Web Framework: Django
-* Python 3.11.4
+* Python 3.11.6
 * Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.0
