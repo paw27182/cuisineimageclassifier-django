@@ -40,9 +40,9 @@
 <br>
 
 # 3. System
-* OS: Windows 10
+* OS: Windows 10/11
 * Web Framework: Django
-* Python 3.12.7
+* Python 3.13.7
 * Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.1

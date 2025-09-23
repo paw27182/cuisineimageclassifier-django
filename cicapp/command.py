@@ -14,7 +14,7 @@ matplotlib.use('Agg')
 
 def predict_image(input_data):
     # load model
-    model_file = r"./cicapp/model/best_model_2.14.0.h5"
+    model_file = r"./cicapp/model/best_model_2.20.0.keras"
     model = load_model(model_file)
 
     # predict image
