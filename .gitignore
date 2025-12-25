@@ -1,4 +1,4 @@
 .idea
 .vscode
 __pycache__/
-cicapp/model/best_model_2.18.0.keras
+cicapp/model/best_model_2.20.0.keras
