@@ -21,7 +21,7 @@
 
   STEP1: > git clone git@github.com:paw27182/cuisineimageclassifier-jupyter.git
 
-  STEP2: Copy the model file of 'best_model_2.18.0.keras' to the following directory.
+  STEP2: Copy the model file of 'best_model_2.21.0.keras' to the following directory.
 
          ~/cuisineimageclassifier-django/cicapp/model
 
@@ -42,7 +42,7 @@
 # 3. System
 * OS: Windows 10/11
 * Web Framework: Django
-* Python 3.13.12
+* Python 3.13.14
 * Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.1
